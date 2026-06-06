@@ -41,11 +41,10 @@ COMPLETE
 Identifies the most listened genre for each user by joining listening logs
 with song metadata, grouping by user and genre, and ranking genres per user.  
 **Output:**
-user_id genre listen_count
-user_1 Pop 4
-user_10 Classical 3
-user_12 Jazz 8
-
+user_id	genre	listen_count
+user_1	Pop	4
+user_10	Classical	3
+user_12	Jazz	8
 ### Task 2: Average Listen Time
 
 Calculates the average listening duration in seconds for each user across
