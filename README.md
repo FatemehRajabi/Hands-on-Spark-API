@@ -51,19 +51,22 @@ COMPLETE
 Identifies the most listened genre for each user by joining listening logs
 with song metadata, grouping by user and genre, and ranking genres per user.  
 **Output:**
-user_id	genre	listen_count
-user_1	Pop	4
-user_10	Classical	3
-user_12	Jazz	8
+| User ID | Favorite Genre | Listen Count |
+|----------|----------|----------|
+| user_1 | Pop | 4 |
+| user_10 | Classical | 3 |
+| user_12 | Jazz | 8 |
 ### Task 2: Average Listen Time
 
 Calculates the average listening duration in seconds for each user across
 all their listening sessions.  
 **Output:**
-user_id average_duration_sec
-user_1 194.58
-user_10 167.71
-user_12 164.11
+
+| User ID | Average Duration (sec) |
+|----------|----------|
+| user_1 | 194.58 |
+| user_10 | 167.71 |
+| user_12 | 164.11 |
 
 ### Task 3: Genre Loyalty Scores - Top 10
 
@@ -71,20 +74,24 @@ Creates a custom Genre Loyalty Score for each user, defined as the percentage
 of their total listens that belong to their top genre. Users are ranked by
 this score and the top 10 are listed.  
 **Output:**
-user_id genre genre_loyalty_score
-user_39 Hip-Hop 80.00
-user_75 Jazz 75.00
-user_30 Classical 66.67
+
+| User ID | Genre | Genre Loyalty Score |
+|----------|----------|----------|
+| user_39 | Hip-Hop | 80.00 |
+| user_75 | Jazz | 75.00 |
+| user_30 | Classical | 66.67 |
 
 ### Task 4: Night Owl Users (12 AM - 5 AM)
 
 Identifies users who listen to music between 12 AM and 5 AM by extracting
 the hour from the timestamp and filtering accordingly.  
 **Output:**
-user_id song_id timestamp hour
-user_1 song_26 2025-03-17 03:03:39 3
-user_10 song_4 2025-03-09 01:18:50 1
-user_11 song_21 2025-03-08 04:49:17 4
+
+| User ID | Song ID | Timestamp | Hour |
+|----------|----------|----------|----------|
+| user_1 | song_26 | 2025-03-17 03:03:39 | 3 |
+| user_10 | song_4 | 2025-03-09 01:18:50 | 1 |
+| user_11 | song_21 | 2025-03-08 04:49:17 | 4 |
 
 ## Execution Instructions
 
